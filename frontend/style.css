@@ -292,7 +292,7 @@ h1, h2, h3 { margin: 0; }
 
 .dish-body { padding: 12px; display: flex; flex-direction: column; gap: 7px; flex: 1; color: #2b2118; }
 
-.dish-name { font-weight: 600; font-size: 15px; overflow-wrap: break-word; }
+.dish-name { font-weight: 600; font-size: 15px; overflow-wrap: break-word; color: var(--ink);}
 
 .dish-meta {
   display: flex; align-items: center; gap: 8px;
@@ -316,7 +316,7 @@ h1, h2, h3 { margin: 0; }
 .veg-dot.nonveg::after { background: var(--red); }
 
 .price-row { display: flex; align-items: baseline; justify-content: space-between; }
-.dish-price { font-weight: 700; font-size: 16px; }
+.dish-price { font-weight: 700; font-size: 16px; color: var(--ink);}
 .prep { font-size: 12px; color: var(--muted); }
 
 .qty-row { display: flex; align-items: center; gap: 10px; margin-top: auto; }
@@ -852,7 +852,7 @@ h1, h2, h3 { margin: 0; }
 .fav-btn.inline { position: static; background: var(--orange-soft); }
 
 .detail-price-row { display: flex; justify-content: space-between; align-items: baseline; margin: 10px 0; }
-.dish-price.big { font-size: 22px; }
+.dish-price.big { font-size: 22px; color: var(--ink);}
 .stock-note { font-size: 13px; color: var(--muted); }
 .stock-note.low { color: var(--amber); font-weight: 600; }
 .dish-wait { font-size: 13px; color: var(--blue); margin: 0 0 10px; }
