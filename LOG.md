@@ -1,12 +1,4 @@
-# Debug log
-
-Your notes. One entry per bug you fixed, using the template below.
-
-This file is read as carefully as your code. A correct fix you cannot
-explain counts for little; a bug you could not fix but investigated
-honestly still counts for something.
-
-Delete the example before you submit.
+the staff & student window is same allows a studnt to change the menu items
 
 ### CC-01 : "The search suggestions are behind everything"
 
@@ -29,6 +21,28 @@ Delete the example before you submit.
 **Checked:** used inspect and tried to check the all relavant classes like dish-name dish-price
 
 **Time:** about 15 minutes
+
+### CC-06: "I ordered more than they had"
+
+**Reproduced:** tried ordering many times
+**Cause:** no stock check
+
+**Fix:** added stock check and limited state of cart so that frontend can only set atmost maxstock and a backend check in validation
+
+**Checked:** cart.js dish.js menu.js state.js validate.js and related backend functions
+
+**Time:** about 1:30 hours on frontend and 20-25 minutes on backend
+
+### CC-07: "Cancelling makes it worse"
+
+**Reproduced:** tried cancelling to understand issues
+**Cause:** arithmetic issue in validationjs backend relsaestock function
+
+**Fix:** changed - to +
+
+**Checked:** order related files
+
+**Time:** about 10 minutes
 
 ## Example — delete this
 

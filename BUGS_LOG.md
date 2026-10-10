@@ -1,45 +1,20 @@
 # Bug log
 
-
 Complaints were collected from students and canteen staff over the last week,
 Each one is what a person told us:
 
 nobody has looked at the code yet,
-working out the solution is your job for the following tasks! 
-
+working out the solution is your job for the following tasks!
 
 **There are 10 problem statements** Fix as many as you can!
 Nobody is expected to finish all of them, but we suggest everyone to give a shot.
 three fixed properly beats eight fixed badly :)
 
 - For every one you fix, write it up in `LOG.md`, or any text file: how you reproduced it,
-what was  wrong, and what you changed. **This is a requirement.**
+  what was wrong, and what you changed. **This is a requirement.**
 
 you may work in any order. If one has you stuck for over an hour, leave it, **note
-what you tried**, and move on  that note is worth marks too
-
-
-
-### CC-01 : "The search suggestions are behind everything"
-
-> "I start typing a dish name and the list of suggestions comes up, but
-> it's stuck behind the rest of the page. I can only click the very top
-> bit of it. The rest I can see, sort of, but clicking does nothing."
-
-Reported by: a student, on a laptop
-
-
-
-### CC-02: "Can't read anything in dark mode"
-
-> "I switched the site to dark mode and now the dish names and the prices
-> are almost invisible. The grey line under the name is fine, it's just
-> the name and the price."
-
-Reported by: a student. others say it looks like this the moment they
-open the site, without changing anything
-
-
+what you tried**, and move on that note is worth marks too
 
 ### CC-03: "The menu is wider than my phone"
 
@@ -47,8 +22,6 @@ open the site, without changing anything
 > buttons on the right-hand dishes are cut off the edge of the screen"
 
 Reported by: a student, on a phone
-
-
 
 ### CC-04: "The buttons don't work on my tablet"
 
@@ -58,8 +31,6 @@ Reported by: a student, on a phone
 
 Reported by: a student, on a tablet
 
-
-
 ### CC-05: "The category bar scrolls away on my phone"
 
 > "On smaller screens, the category and filter bar scrolls away instead of
@@ -67,26 +38,13 @@ Reported by: a student, on a tablet
 
 Reported by: a student, on a phone
 
-
-
-### CC-06: "I ordered more than they had"
-
-> "The counter says only 2 samosas were left but it let me order 5, and
-> the order went through fine. When I got there they only had 2?"
-
-Reported by: canteen staff
-
-
-
 ### CC-07: "Cancelling makes it worse"
 
 > "A student cancelled an order and the number of plates we have left went
-> *down* again instead of coming back. Do that a few times and the system
+> _down_ again instead of coming back. Do that a few times and the system
 > thinks we have none left when the kitchen is full"
 
 Reported by: canteen staff
-
-
 
 ### CC-08: "An old coupon still works"
 
@@ -95,16 +53,12 @@ Reported by: canteen staff
 
 Reported by: canteen staff
 
-
-
 ### CC-09: "The menu shows more dishes than it should"
 
 > "The page is supposed to show a few dishes at a time and load more as
 > you scroll. It just dumps a much longer list straight away!"
 
 Reported by: a student
-
-
 
 ### CC-10: "Sorting by price is backwards"
 
@@ -113,8 +67,6 @@ Reported by: a student
 > wrong way round."
 
 Reported by: a student.
-
-
 
 ## Notes
 
@@ -125,6 +77,7 @@ Reported by: a student.
   show up. Part of the task is working out what :)
 - Stock can end up in a strange state while you test. Reset it with
   `git checkout -- backend/data/` and restart the server.
+
 ## Extra credit
 
 None of this is required, and none of it is needed to clear the task. just brownie points
