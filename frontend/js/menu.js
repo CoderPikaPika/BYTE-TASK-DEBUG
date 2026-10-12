@@ -72,6 +72,7 @@ async function loadCategories() {
 	try {
 		const { categories } = await api.getCategories();
 		state.categories = categories;
+		console.log(state);
 
 		render(
 			catTabs,
@@ -421,6 +422,7 @@ document.addEventListener("click", (e) => {
 
 $("#sortSelect").addEventListener("change", (e) => {
 	state.filters.sort = e.target.value;
+	console.log(state);
 	loadMenu();
 });
 

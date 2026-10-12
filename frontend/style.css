@@ -1183,7 +1183,7 @@ h3 {
 
 @media (max-width: 1000px) {
 	.menu-grid {
-		grid-template-columns: repeat(3, 1fr);
+		grid-template-columns: repeat(3, minmax(0, 1fr));
 	}
 	.stat-row {
 		grid-template-columns: repeat(2, 1fr);
@@ -1192,7 +1192,7 @@ h3 {
 
 @media (max-width: 760px) {
 	.menu-grid {
-		grid-template-columns: repeat(2, 1fr);
+		grid-template-columns: repeat(2, minmax(0, 1fr));
 	}
 	.dish-name {
 		font-size: 17px;
@@ -1849,22 +1849,7 @@ body.is-offline .site-header {
 		background: transparent;
 		transition: background 0.2s;
 	}
-
-	.dish-card::after {
-		left: 0;
-		right: 0;
-		bottom: 0;
-		height: 58px;
-		z-index: 3;
-	}
-	.img-wrap::after {
-		top: 0;
-		right: 0;
-		width: 52px;
-		height: 52px;
-		z-index: 1;
-	}
-
+	/*--------------------------------------------------------------------------------------------------------------*/
 	.dish-card.blocked::after {
 		background: rgba(255, 250, 244, 0.3);
 	}

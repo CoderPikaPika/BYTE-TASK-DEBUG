@@ -37,21 +37,7 @@ Reported by: a student, on a tablet
 > staying visible at the top while I scroll down through the menu dishes."
 
 Reported by: a student, on a phone
-
-### CC-07: "Cancelling makes it worse"
-
-> "A student cancelled an order and the number of plates we have left went
-> _down_ again instead of coming back. Do that a few times and the system
-> thinks we have none left when the kitchen is full"
-
-Reported by: canteen staff
-
-### CC-08: "An old coupon still works"
-
-> "FRESHERS24 was last year's offer and it expired ages ago. Someone used
-> it yesterday and got the discount?!!"
-
-Reported by: canteen staff
+//on laptop sort doesnot work
 
 ### CC-09: "The menu shows more dishes than it should"
 
@@ -59,14 +45,6 @@ Reported by: canteen staff
 > you scroll. It just dumps a much longer list straight away!"
 
 Reported by: a student
-
-### CC-10: "Sorting by price is backwards"
-
-> "I picked 'price: low to high' and the most expensive things came first.
-> I tried the other option and that gave me the cheap ones. Both are the
-> wrong way round."
-
-Reported by: a student.
 
 ## Notes
 
