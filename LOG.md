@@ -7,7 +7,7 @@
 
 **Checked:** used inspect to check the css for filter filter-inner cat-tab and rest inside the "filter" div in section.
 
-**Time:** about 35 minutes, around 15 minutes to understand the issue and finding it in the ui and 10-15 minutes to solve the problem after analysing the consequences of the change i was doing.
+**Time:** about 30-40 minutes, around 15 minutes to understand the issue and finding it in the ui and 10-15 minutes to solve the problem after analysing the consequences of the change i was doing.
 
 ### CC-02: "Can't read anything in dark mode"
 
@@ -30,6 +30,17 @@
 **Checked:** different devices a few custom and responsiveness on inspect
 
 **Time:** about 20 minutes
+
+### CC-04: "The buttons don't work on my tablet"
+
+**Reproduced:** used inspect and found that only tablet had an ::after then found the z-index problem
+**Cause:** using ::after on a button added a layer over it that caused it to become unusable
+
+**Fix:** first made z-index=-1 for both star and addto cart button then after properv check that both ::after dish_card & img wrap were dummy codes completely removed them
+
+**Checked:** tried out background change on after to check for the extra layer getting created
+
+**Time:** about 30-40 minutes
 
 ### CC-06: "I ordered more than they had"
 
@@ -76,7 +87,18 @@
 **Checked:** menu.routes menu.js search.js
 **Time:** about 30 minutes
 
-### CC-11: "Coupon after use did not update its count on use cancelling was fine "
+### CC-11: "any filter like sorting gives out of stock or unavailable(breakfast meal shown in lunch) items"
+
+**Reproduced:**
+
+**Cause:** no filter to check
+
+**Fix:** added a filter check on dishes to remove out of stck and other unavailble items
+
+**Checked:** menu.routes menu.js search.js
+**Time:** about 10 minutes
+
+### CC-12: "Coupon after use did not update its count on use cancelling was fine "
 
 **Reproduced:** tried out all the coupons from coupon.json
 
@@ -89,7 +111,7 @@ Prices without decimals still show without a trailing .00.
 
 **Time:** about 40 minutes, most of it working out that the cart and the
 
-### CC-12 — "the staff & student window is same allows a student to change the menu items & stock"
+### CC-13 — "the staff & student window is same allows a student to change the menu items & stock"
 
 **What I tried:** Authentication system can be built so that discounts coupons and admin systems can be persnalised.
 
@@ -97,15 +119,7 @@ Prices without decimals still show without a trailing .00.
 
 **What I would try next:**
 
-### CC-13 — "order tokens are saved but orders not shown on my orders"
-
-**What I tried:** Authentication system can be built so that discounts coupons and admin systems can be persnalised.
-
-**Where I got to:** I did not solve this problem due to lack of time
-
-**What I would try next:**
-
-### CC-12 — ""
+### CC-14 — "order tokens are saved but orders not shown on my orders"
 
 **What I tried:** Authentication system can be built so that discounts coupons and admin systems can be persnalised.
 

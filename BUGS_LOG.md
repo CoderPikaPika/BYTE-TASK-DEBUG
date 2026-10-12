@@ -1,36 +1,3 @@
-# Bug log
-
-Complaints were collected from students and canteen staff over the last week,
-Each one is what a person told us:
-
-nobody has looked at the code yet,
-working out the solution is your job for the following tasks!
-
-**There are 10 problem statements** Fix as many as you can!
-Nobody is expected to finish all of them, but we suggest everyone to give a shot.
-three fixed properly beats eight fixed badly :)
-
-- For every one you fix, write it up in `LOG.md`, or any text file: how you reproduced it,
-  what was wrong, and what you changed. **This is a requirement.**
-
-you may work in any order. If one has you stuck for over an hour, leave it, **note
-what you tried**, and move on that note is worth marks too
-
-### CC-03: "The menu is wider than my phone"
-
-> "I have to scroll sideways to see the whole menu, and the Add to Cart
-> buttons on the right-hand dishes are cut off the edge of the screen"
-
-Reported by: a student, on a phone
-
-### CC-04: "The buttons don't work on my tablet"
-
-> "Add to Cart does nothing. The star to save a dish does nothing either.
-> The buttons look completely normal. It works fine on my laptop, and it
-> works on my friend's phone. Only my tablet?"
-
-Reported by: a student, on a tablet
-
 ### CC-05: "The category bar scrolls away on my phone"
 
 > "On smaller screens, the category and filter bar scrolls away instead of

@@ -49,7 +49,7 @@ router.get(
 		const { veg, q, category, servedOnly, maxPrice, tag } = req.query;
 
 		let dishes = allDishes(now);
-
+		dishes = dishes.filter((d) => d.stock > 0);
 		if (veg === "true") dishes = dishes.filter((d) => d.veg === true);
 		if (veg === "false") dishes = dishes.filter((d) => d.veg === false);
 		if (category && category !== "All")
